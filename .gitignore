@@ -17,3 +17,15 @@ vignettes/*.pdf
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
+
+*.sublime-project
+*.sublime-workspace
+
+# node_module cache for TravisCI, etc.
+node_modules.tar.gz
+
+npm-debug.log
+.esformatter
+.tmp/
+.dist/
+dist/

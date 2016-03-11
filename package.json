@@ -1,0 +1,28 @@
+{
+	"name": "datasciencecoursera",
+	"humanReadableName": "Data Science - Coursera",
+	"version": "1.0.0",
+	"description": "Chris Corwin's Data Science Course from Coursera.com",
+	"main": "index.js",
+	"scripts": {
+		"start": "node  --harmony app.js"
+	},
+	"repository": {
+			"type": "git",
+			"url": "git+https://github.com/chriscorwin/datasciencecoursera.git"
+	},
+	"author": {
+			"name": "Chris Corwin",
+			"email": "chris.corwin@gmail.com",
+			"url": "http://chriscorwin.com/"
+	},
+	"license": "ISC",
+	"bugs": {
+			"url": "https://github.com/chriscorwin/datasciencecoursera/issues"
+	},
+	"homepage": "https://github.com/chriscorwin/datasciencecoursera#readme",
+	"dependencies": {
+		"@salesforce-ux/design-system": "1.0.0",
+		"datasharing": "git@github.com:chriscorwin/datasharing.git"
+	}
+}
